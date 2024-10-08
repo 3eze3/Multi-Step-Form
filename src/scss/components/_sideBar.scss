@@ -1,0 +1,39 @@
+@use "../abstract/mixins" as m;
+@use "../abstract/variables" as v;
+.sideBar {
+	width: 16rem;
+	height: 100%;
+	border-radius: 0.3rem;
+	padding: 2rem;
+	background-image: url("../assest/images/ilustration/bg-sidebar-desktop.svg");
+	//
+	&__list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-evenly;
+	}
+	&__option {
+		display: flex;
+		gap: 1rem;
+	}
+	&__btn {
+		text-align: center;
+		border-radius: 50%;
+		width: 2.5rem;
+		height: 2.5rem;
+		// color: v.$white;
+		&:nth-child(1) {
+			background-color: v.$pastel-blue;
+			color: #000;
+		}
+	}
+	&__wrapper {
+		//
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		//
+	}
+}
