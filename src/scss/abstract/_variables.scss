@@ -1,0 +1,49 @@
+// --------------------------- Font-Face -----------------------------
+
+@font-face {
+	font-family: "Ubuntu Bold";
+	font-weight: 700;
+	src: local("Ubuntu Bold"),
+		url("../../../build/assest/fonts/Ubuntu-Bold.woff2") format(woff2),
+		url("../../../build/assest/fonts/Ubuntu-Bold.woff") format(woff),
+		url("../../../build/assest/fonts/Ubuntu-Bold.ttf") format(truetype);
+}
+
+@font-face {
+	font-family: "Ubuntu Medium";
+	font-weight: 500;
+	src: local("Ubuntu Medium"),
+		url("../../../build/assest/fonts/Ubuntu-Medium.woff2") format(woff2),
+		url("../../../build/assest/fonts/Ubuntu-Medium.woff") format(woff),
+		url("../../../build/assest/fonts/Ubuntu-Medium.ttf") format(truetype);
+}
+
+@font-face {
+	font-family: "Ubuntu Regular";
+	font-weight: 400;
+	src: local("Ubuntu Bold"),
+		url("../../../build/assest/fonts/Ubuntu-Regular.woff2") format(woff2),
+		url("../../../build/assest/fonts/Ubuntu-Regular.woff") format(woff),
+		url("../../../build/assest/fonts/Ubuntu-Regular.ttf") format(truetype);
+}
+
+// --------------------------- Family Fonts ---------------------------
+$ubuntuB: "Ubuntu Bold";
+$ubuntuM: "Ubuntu Medium";
+$ubuntuR: "Ubuntu Regular";
+// --------------------------- Size Fonts -----------------------------
+$ft-body: 16px;
+// --------------------------- Colors ---------------------------------
+
+// ### Primary
+$marine-blue: hsl(213, 96%, 18%);
+$purplish-blue: hsl(243, 100%, 62%);
+$pastel-blue: hsl(228, 100%, 84%);
+$light-blue: hsl(206, 94%, 87%);
+$strawberry-red: hsl(354, 84%, 57%);
+// ### Neutral
+$cool-gray: hsl(231, 11%, 63%);
+$light-gray: hsl(229, 24%, 87%);
+$magnolia: hsl(217, 100%, 97%);
+$alabaster: hsl(231, 100%, 99%);
+$white: hsl(0, 0%, 100%);
