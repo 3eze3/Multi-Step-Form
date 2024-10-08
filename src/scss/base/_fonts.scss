@@ -1,0 +1,34 @@
+@use "../abstract/mixins" as m;
+@use "../abstract/variables" as v;
+body {
+	width: 100dvw;
+	min-height: 100dvh;
+	display: grid;
+	place-content: center;
+	font-size: v.$ft-body;
+	font-family: v.$ubuntuR;
+	hyphens: manual;
+	font-smooth: always;
+	background-color: v.$magnolia;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2 {
+	font-size: 2em;
+	font-family: v.$ubuntuB;
+}
+
+p,
+span,
+strong {
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+strong {
+	color: v.$white;
+}
