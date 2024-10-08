@@ -1,0 +1,31 @@
+@use "../abstract/variables" as v;
+@use "../abstract/mixins" as m;
+.main {
+	outline: solid red 1px;
+	width: 55rem;
+	height: 35rem;
+	padding: 1rem 3.5rem 1rem 1rem;
+	background-color: v.$white;
+	//
+	border-radius: 1rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	&__btns {
+		width: 100%;
+		//
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		//
+	}
+	&__next {
+		background: gray;
+		padding: 0.8rem 1.5rem;
+		border-radius: 0.25rem;
+	}
+
+	&__back {
+		color: red;
+	}
+}
